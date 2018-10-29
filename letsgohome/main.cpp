@@ -16,22 +16,19 @@ int main ()
     // 1 && 1 - 1
     // 0 && 0 - 0
     if (hour < finish  && hour >start )
+    {
         cout << "Go working";
+    }
     else if (hour > finish  || hour < start)
+    {
+        cout<< "Go home!";
+    }
+
     // || или
     // 1 || 0 - 1   20
     // 0 || 1 - 1
     // 1 || 1 - 1
     // 0 || 0 - 0
-
-
-
-
-
-    if (hour > 20)
-        cout << "Go home!";
-    else if (hour <= 20)
-        cout << "Go to shop and buy bread";
 
 
 }
